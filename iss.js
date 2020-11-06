@@ -72,4 +72,9 @@ const nextISSTimesForMyLocation = function(callback) {
   });
 };
 
+// const nextISSTimesForMyLocation = function(callback) {
+//   fetchMyIP((error, ip)
+//     .then(fetchCoordsByIP(ip, (error, loc))
+//     .then(fetchISSFlyOverTimes(loc, (error, nextPasses))
+//    };
 module.exports = { fetchMyIP,fetchCoordsByIP,fetchISSFlyOverTimes,nextISSTimesForMyLocation };
